@@ -10,6 +10,9 @@ authors:
 requires:
 - core/1.2.4 : [Core,Element.Event,Class.Extras]
 
+
+provides:
+    [Event:once]
 ...
 */
 /*!
