@@ -63,7 +63,7 @@ var old_Events = {
     });
 });
 
-window['Events'].invoke('implement',{
+window['Events'].implement({
     addEvent : function(type,fn){
         if (type.test(/:once$/)){
             type = type.substr(0,type.length-5);
