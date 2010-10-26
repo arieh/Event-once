@@ -48,7 +48,7 @@ function addEventOnce(obj,type,fn,bind){
 var old_Events = {
     event: window['Events'].prototype.addEvent
     , element : window['Element'].prototype.addEvent
-}
+};
 
 [Element,Window,Document].each(function(e){
     e.implement({    
